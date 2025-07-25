@@ -1,0 +1,94 @@
+﻿@model Gender.Repositories.DuyVK.Models.MenstrualCycleReminderDuyVK
+@{
+    ViewData["Title"] = "Reminder Details";
+}
+
+<style>
+    /* Gradient section header */
+    .page-header {
+        background: linear-gradient(90deg, #6B73FF 0%, #000DFF 100%);
+        color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        margin-bottom: 1.5rem;
+    }
+    /* Card wrapper */
+    .detail-card {
+        border-radius: .5rem;
+        box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+    }
+    /* Field labels */
+    .field-label {
+        font-weight: 600;
+        margin-bottom: .25rem;
+    }
+    /* Field values */
+    .field-value {
+        padding: .75rem 1rem;
+        border-radius: .5rem;
+        background-color: #f8f9fa;
+        margin-bottom: 1rem;
+    }
+</style>
+
+<section class="page-header">
+    <h1 class="h3 mb-0">@ViewData["Title"]</h1>
+</section>
+
+<div class="card detail-card mb-4">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <div class="field-label">Category</div>
+                    <div class="field-value">@Model.ReminderCategoryDuyVK?.Name</div>
+                </div>
+                <div class="mb-3">
+                    <div class="field-label">Title</div>
+                    <div class="field-value">@Model.Title</div>
+                </div>
+                <div class="mb-3">
+                    <div class="field-label">Note</div>
+                    <div class="field-value">@Model.Note</div>
+                </div>
+                <div class="mb-3">
+                    <div class="field-label">Reminder Date &amp; Time</div>
+                    <div class="field-value">@Model.ReminderDate.ToString("g")</div>
+                </div>
+                <div class="mb-3">
+                    <div class="field-label">Sent At</div>
+                    <div class="field-value">@Model.SentAt</div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <div class="field-label">Sent?</div>
+                    <div class="field-value">@((Model.IsSent.Value) ? "Yes" : "No")</div>
+                </div>
+                <div class="mb-3">
+                    <div class="field-label">Repeat Interval</div>
+                    <div class="field-value">@Model.RepeatInterval</div>
+                </div>
+                <div class="mb-3">
+                    <div class="field-label">Importance Score</div>
+                    <div class="field-value">@Model.ImportanceScore</div>
+                </div>
+                <div class="mb-3">
+                    <div class="field-label">Created At</div>
+                    <div class="field-value">@Model.CreatedAt</div>
+                </div>
+                <div class="mb-3">
+                    <div class="field-label">Updated At</div>
+                    <div class="field-value">@Model.UpdatedAt</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+</div>

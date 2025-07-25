@@ -1,0 +1,6 @@
+@Gender.SoapAPiServices.DuyVK_HostAddress = http://localhost:5236
+
+GET {{Gender.SoapAPiServices.DuyVK_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

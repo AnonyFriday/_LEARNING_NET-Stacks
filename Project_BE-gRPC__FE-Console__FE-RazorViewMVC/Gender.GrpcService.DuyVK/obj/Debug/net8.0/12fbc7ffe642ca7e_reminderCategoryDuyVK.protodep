@@ -1,0 +1,2 @@
+obj\Debug\net8.0/ReminderCategoryDuyVK.cs \
+obj\Debug\net8.0/ReminderCategoryDuyVKGrpc.cs: Protos/reminderCategoryDuyVK.proto

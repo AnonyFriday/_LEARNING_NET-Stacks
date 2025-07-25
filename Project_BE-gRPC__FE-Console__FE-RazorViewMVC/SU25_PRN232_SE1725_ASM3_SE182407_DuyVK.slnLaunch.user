@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Gender.GrpcService.DuyVK\\Gender.GrpcService.DuyVK.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gender.GrpcClient.DuyVK\\Gender.GrpcClient.DuyVK.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

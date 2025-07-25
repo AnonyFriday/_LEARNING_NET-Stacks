@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Gender.MVCWebApp.FE.DuyVK
+build_property.RootNamespace = Gender.MVCWebApp.FE.DuyVK
+build_property.ProjectDir = E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\Gender.MVCWebApp.FE.DuyVK\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\Gender.MVCWebApp.FE.DuyVK
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/Account/Forbidden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JiaWRkZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/MenstrualCycleReminderDuyVks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVuc3RydWFsQ3ljbGVSZW1pbmRlckR1eVZrc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/MenstrualCycleReminderDuyVks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVuc3RydWFsQ3ljbGVSZW1pbmRlckR1eVZrc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/MenstrualCycleReminderDuyVks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVuc3RydWFsQ3ljbGVSZW1pbmRlckR1eVZrc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/MenstrualCycleReminderDuyVks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVuc3RydWFsQ3ljbGVSZW1pbmRlckR1eVZrc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/MenstrualCycleReminderDuyVks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVuc3RydWFsQ3ljbGVSZW1pbmRlckR1eVZrc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/ReminderCategoryDuyVks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtaW5kZXJDYXRlZ29yeUR1eVZrc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/ReminderCategoryDuyVks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtaW5kZXJDYXRlZ29yeUR1eVZrc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/ReminderCategoryDuyVks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtaW5kZXJDYXRlZ29yeUR1eVZrc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/ReminderCategoryDuyVks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtaW5kZXJDYXRlZ29yeUR1eVZrc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/inclass_fpt/2025_Semester-3/PRN232/Projects/SU25_PRN232_SE1725_ASM1_SE182407_DuyVK/Gender.MVCWebApp.FE.DuyVK/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gu7c239jwo

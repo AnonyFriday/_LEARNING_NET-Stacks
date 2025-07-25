@@ -1,0 +1,99 @@
+﻿@model Gender.Repositories.DuyVK.Models.MenstrualCycleReminderDuyVK
+@{
+    ViewData["Title"] = "Delete Reminder";
+}
+
+<style>
+    .page-header {
+        background: linear-gradient(90deg, #6B73FF 0%, #000DFF 100%);
+        color: #fff;
+        padding: 1rem 1.5rem;
+        border-radius: .5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-delete {
+        border-radius: .5rem;
+        box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+    }
+
+    .dl-row dt {
+        font-weight: 600;
+        padding: .5rem 0;
+    }
+
+    .dl-row dd {
+        padding: .5rem 0;
+    }
+
+    .btn-group-delete .btn {
+        min-width: 120px;
+    }
+</style>
+
+<section class="page-header">
+    <h1 class="h3 mb-0">@ViewData["Title"]</h1>
+</section>
+
+<div class="card card-delete mb-4">
+    <div class="card-body">
+
+        @* show TempData error if we got a 403 on POST *@
+        @if (TempData["ErrorMessage"] is string err && !string.IsNullOrEmpty(err))
+        {
+            <div class="alert alert-danger text-center">
+                <i class="bi bi-x-circle-fill me-1"></i>@err
+            </div>
+        }
+
+        <div class="alert alert-warning text-center">
+            <i class="bi bi-exclamation-triangle-fill me-2"></i>
+            <strong>Are you sure you want to delete this reminder?</strong>
+        </div>
+
+        <dl class="row dl-row mb-4">
+            <dt class="col-sm-3">Title</dt>
+            <dd class="col-sm-9">@Model.Title</dd>
+
+            <dt class="col-sm-3">Note</dt>
+            <dd class="col-sm-9">@Model.Note</dd>
+
+            <dt class="col-sm-3">Reminder Date</dt>
+            <dd class="col-sm-9">@Model.ReminderDate:yyyy-MM-dd HH:mm</dd>
+
+            <dt class="col-sm-3">Sent At</dt>
+            <dd class="col-sm-9">@Model.SentAt?.ToString("yyyy-MM-dd HH:mm")</dd>
+
+            <dt class="col-sm-3">Is Sent</dt>
+            <dd class="col-sm-9">@(Model.IsSent.HasValue ? "Yes" : "No")</dd>
+
+            <dt class="col-sm-3">Repeat Interval</dt>
+            <dd class="col-sm-9">@Model.RepeatInterval</dd>
+
+            <dt class="col-sm-3">Importance Score</dt>
+            <dd class="col-sm-9">@Model.ImportanceScore</dd>
+
+            <dt class="col-sm-3">Category Color</dt>
+            <dd class="col-sm-9">
+                @if (!string.IsNullOrEmpty(Model.ReminderCategoryDuyVK?.ColorCode))
+                {
+                    <span class="badge rounded-pill"
+                          style="background-color:@Model.ReminderCategoryDuyVK.ColorCode; color:#fff;">
+                        @Model.ReminderCategoryDuyVK.ColorCode
+                    </span>
+                }
+            </dd>
+        </dl>
+
+        <form asp-action="Delete" method="post" class="d-flex justify-content-center btn-group-delete">
+            <input type="hidden" asp-for="MenstrualCycleReminderDuyVKid" />
+
+            <button type="submit" class="btn btn-danger">
+                <i class="bi bi-trash me-1"></i> Confirm
+            </button>
+            <a asp-action="Index" class="btn btn-secondary ms-3">
+                <i class="bi bi-x-circle me-1"></i> Cancel
+            </a>
+        </form>
+    </div>
+</div>

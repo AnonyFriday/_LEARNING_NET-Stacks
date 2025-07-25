@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Gender.Client.MauiHybridApp.DuyVK.props" />
+</Project>

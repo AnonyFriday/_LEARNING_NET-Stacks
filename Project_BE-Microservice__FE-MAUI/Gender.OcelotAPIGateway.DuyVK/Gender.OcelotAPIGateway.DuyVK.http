@@ -1,0 +1,6 @@
+@Gender.OcelotAPIGateway.DuyVK_HostAddress = http://localhost:5133
+
+GET {{Gender.OcelotAPIGateway.DuyVK_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

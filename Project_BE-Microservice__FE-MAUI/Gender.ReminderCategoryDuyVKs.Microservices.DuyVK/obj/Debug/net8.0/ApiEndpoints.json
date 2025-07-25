@@ -1,0 +1,119 @@
+[
+  {
+    "ContainingType": "Gender.ReminderCategoryDuyVKs.Microservices.DuyVK.Controllers.ReminderCategoryDuyVKController",
+    "Method": "Get",
+    "RelativePath": "api/ReminderCategoryDuyVK",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Gender.BusinessObject.Shared.Models.DuyVK.Models.ReminderCategoryDuyVK, Gender.BusinessObject.Shared.Models.DuyVK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gender.ReminderCategoryDuyVKs.Microservices.DuyVK.Controllers.ReminderCategoryDuyVKController",
+    "Method": "Post",
+    "RelativePath": "api/ReminderCategoryDuyVK",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gender.ReminderCategoryDuyVKs.Microservices.DuyVK.Controllers.ReminderCategoryDuyVKController",
+    "Method": "Get",
+    "RelativePath": "api/ReminderCategoryDuyVK/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gender.ReminderCategoryDuyVKs.Microservices.DuyVK.Controllers.ReminderCategoryDuyVKController",
+    "Method": "Put",
+    "RelativePath": "api/ReminderCategoryDuyVK/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gender.ReminderCategoryDuyVKs.Microservices.DuyVK.Controllers.ReminderCategoryDuyVKController",
+    "Method": "Delete",
+    "RelativePath": "api/ReminderCategoryDuyVK/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

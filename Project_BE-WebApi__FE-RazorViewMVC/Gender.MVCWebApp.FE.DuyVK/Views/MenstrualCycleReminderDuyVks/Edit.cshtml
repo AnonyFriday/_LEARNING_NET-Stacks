@@ -1,0 +1,126 @@
+﻿@model Gender.Repositories.DuyVK.Models.MenstrualCycleReminderDuyVK
+@{
+    ViewData["Title"] = "Edit Reminder";
+}
+
+<style>
+    /* Gradient section header */
+    .page-header {
+        background: linear-gradient(90deg, #6B73FF 0%, #000DFF 100%);
+        color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        margin-bottom: 1.5rem;
+    }
+    /* Card wrapper */
+    .form-card {
+        border-radius: .5rem;
+        box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+    }
+    /* Larger inputs */
+    .form-control, .form-select {
+        border-radius: .5rem;
+        padding: .75rem 1rem;
+    }
+    /* Submit button */
+    .btn-submit {
+        border-radius: 50px;
+        padding: .75rem 1.5rem;
+    }
+</style>
+
+<section class="page-header">
+    <h1 class="h3 mb-0">@ViewData["Title"]</h1>
+</section>
+
+<div class="card form-card mb-4">
+    <div class="card-body">
+        <form asp-action="Edit" asp-controller="MenstrualCycleReminderDuyVks" method="post" novalidate>
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+            <input type="hidden" asp-for="MenstrualCycleReminderDuyVKid" />
+            <input type="hidden" asp-for="CreatedAt" />
+            <input type="hidden" asp-for="UpdatedAt" />
+
+            <div class="mb-3">
+                <label asp-for="ReminderCategoryDuyVKid" class="form-label">Category</label>
+                <select asp-for="ReminderCategoryDuyVKid" class="form-select" asp-items="ViewBag.ReminderCategoryDuyVKid">
+                    <option value="">— Select category —</option>
+                </select>
+                <span asp-validation-for="ReminderCategoryDuyVKid" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Title" class="form-label">Title</label>
+                <input asp-for="Title" class="form-control form-control-lg" placeholder="Enter title" required />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Note" class="form-label">Note</label>
+                <textarea asp-for="Note" class="form-control form-control-lg" rows="3" placeholder="Optional notes" required></textarea>
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="ReminderDate" class="form-label">Reminder Date &amp; Time</label>
+                <input asp-for="ReminderDate" type="datetime-local" class="form-control form-control-lg" required />
+                <span asp-validation-for="ReminderDate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="SentAt" class="form-label">Sent At</label>
+                <input asp-for="SentAt" type="datetime-local" class="form-control form-control-lg" required />
+                <span asp-validation-for="SentAt" class="text-danger"></span>
+            </div>
+
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input"
+                       id="IsSent"
+                       name="IsSent"
+                       value="true"
+                       @(Model.IsSent == true ? "checked" : "") />
+                <input type="hidden" name="IsSent" value="" />
+                <label class="form-check-label" for="IsActive">@Html.DisplayNameFor(m => m.IsSent)</label>
+                <span asp-validation-for="IsSent" class="text-danger"></span>
+            </div>
+
+
+            <div class="mb-3">
+                <label asp-for="RepeatInterval" class="form-label">Repeat Interval</label>
+                <input asp-for="RepeatInterval" class="form-control form-control-lg" placeholder="e.g. Daily, Weekly" required />
+                <span asp-validation-for="RepeatInterval" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="ImportanceScore" class="form-label">Importance Score</label>
+                <input asp-for="ImportanceScore" type="number" step="0.01" class="form-control form-control-lg" required />
+                <span asp-validation-for="ImportanceScore" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="CreatedAt" class="form-label">Created At</label>
+                <input asp-for="CreatedAt" class="form-control form-control-lg" disabled />
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="UpdatedAt" class="form-label">Updated At</label>
+                <input asp-for="UpdatedAt" class="form-control form-control-lg" disabled />
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left"></i> Back to List
+                </a>
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <i class="bi bi-save"></i> Save
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

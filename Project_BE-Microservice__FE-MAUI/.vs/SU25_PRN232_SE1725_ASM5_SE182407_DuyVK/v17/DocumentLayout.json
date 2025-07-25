@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|c:\\users\\duyvu\\desktop\\su25_prn232_se1725_asm5_se182407_duyvk\\gender.client.mauihybridapp.duyvk\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|solutionrelative:gender.client.mauihybridapp.duyvk\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE7A8EF-A73D-4814-A7BB-336808A8B146}|Gender.OcelotAPIGateway.DuyVK\\Gender.OcelotAPIGateway.DuyVK.csproj|c:\\users\\duyvu\\desktop\\su25_prn232_se1725_asm5_se182407_duyvk\\gender.ocelotapigateway.duyvk\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CAE7A8EF-A73D-4814-A7BB-336808A8B146}|Gender.OcelotAPIGateway.DuyVK\\Gender.OcelotAPIGateway.DuyVK.csproj|solutionrelative:gender.ocelotapigateway.duyvk\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|c:\\users\\duyvu\\desktop\\su25_prn232_se1725_asm5_se182407_duyvk\\gender.client.mauihybridapp.duyvk\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|solutionrelative:gender.client.mauihybridapp.duyvk\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE7A8EF-A73D-4814-A7BB-336808A8B146}|Gender.OcelotAPIGateway.DuyVK\\Gender.OcelotAPIGateway.DuyVK.csproj|c:\\users\\duyvu\\desktop\\su25_prn232_se1725_asm5_se182407_duyvk\\gender.ocelotapigateway.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE7A8EF-A73D-4814-A7BB-336808A8B146}|Gender.OcelotAPIGateway.DuyVK\\Gender.OcelotAPIGateway.DuyVK.csproj|solutionrelative:gender.ocelotapigateway.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|c:\\users\\duyvu\\desktop\\su25_prn232_se1725_asm5_se182407_duyvk\\gender.client.mauihybridapp.duyvk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|solutionrelative:gender.client.mauihybridapp.duyvk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|c:\\users\\duyvu\\desktop\\su25_prn232_se1725_asm5_se182407_duyvk\\gender.client.mauihybridapp.duyvk\\gender.client.mauihybridapp.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|solutionrelative:gender.client.mauihybridapp.duyvk\\gender.client.mauihybridapp.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|c:\\users\\duyvu\\desktop\\su25_prn232_se1725_asm5_se182407_duyvk\\gender.client.mauihybridapp.duyvk\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{5BED9B8F-407F-4926-A926-43F97B81060E}|Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj|solutionrelative:gender.client.mauihybridapp.duyvk\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 636,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1778342401:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1646721036:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2102939616:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gender.Client.MauiHybridApp.DuyVK.csproj",
+              "DocumentMoniker": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj",
+              "RelativeDocumentMoniker": "Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj",
+              "ToolTip": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj",
+              "RelativeToolTip": "Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-19T05:59:05.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Gender.Client.MauiHybridApp.DuyVK\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Gender.Client.MauiHybridApp.DuyVK\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T05:56:51.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Gender.Client.MauiHybridApp.DuyVK\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\MauiProgram.cs",
+              "RelativeToolTip": "Gender.Client.MauiHybridApp.DuyVK\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T05:56:59.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.OcelotAPIGateway.DuyVK\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Gender.OcelotAPIGateway.DuyVK\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.OcelotAPIGateway.DuyVK\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Gender.OcelotAPIGateway.DuyVK\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-19T08:18:52.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "favicon.png",
+              "DocumentMoniker": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "Gender.Client.MauiHybridApp.DuyVK\\wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\wwwroot\\favicon.png",
+              "RelativeToolTip": "Gender.Client.MauiHybridApp.DuyVK\\wwwroot\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-07-19T05:57:48.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\appsettings.json",
+              "RelativeDocumentMoniker": "Gender.Client.MauiHybridApp.DuyVK\\appsettings.json",
+              "ToolTip": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.Client.MauiHybridApp.DuyVK\\appsettings.json",
+              "RelativeToolTip": "Gender.Client.MauiHybridApp.DuyVK\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-19T05:57:46.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.OcelotAPIGateway.DuyVK\\Program.cs",
+              "RelativeDocumentMoniker": "Gender.OcelotAPIGateway.DuyVK\\Program.cs",
+              "ToolTip": "C:\\Users\\duyvu\\Desktop\\SU25_PRN232_SE1725_ASM5_SE182407_DuyVK\\Gender.OcelotAPIGateway.DuyVK\\Program.cs",
+              "RelativeToolTip": "Gender.OcelotAPIGateway.DuyVK\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAD4vy4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T05:57:20.718Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1014,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ee48ac7-d7eb-4653-a54e-3bba557ccc9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 921,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 587,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

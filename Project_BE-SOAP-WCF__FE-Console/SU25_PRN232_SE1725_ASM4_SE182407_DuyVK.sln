@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.Repositories.DuyVK", "Gender.Repositories.DuyVK\Gender.Repositories.DuyVK.csproj", "{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.Services.DuyVK", "Gender.Services.DuyVK\Gender.Services.DuyVK.csproj", "{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.SoapApiServices.DuyVK", "Gender.SoapAPiServices.DuyVK\Gender.SoapApiServices.DuyVK.csproj", "{66C3B4A5-7AB9-4135-9CA6-D3AF981C79AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.SoapClients.AppConsole.DuyVK", "Gender.SoapClients.Console.DuyVK\Gender.SoapClients.AppConsole.DuyVK.csproj", "{0D7CDE7A-6A1A-4BDB-9736-EE7B4394F53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.SoapClients.MVCWebApp.DuyVK", "Gender.SoapClients.MVCWebApp.DuyVK\Gender.SoapClients.MVCWebApp.DuyVK.csproj", "{313609F3-3910-4093-B8CA-5C7D45444D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C3B4A5-7AB9-4135-9CA6-D3AF981C79AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C3B4A5-7AB9-4135-9CA6-D3AF981C79AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C3B4A5-7AB9-4135-9CA6-D3AF981C79AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C3B4A5-7AB9-4135-9CA6-D3AF981C79AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7CDE7A-6A1A-4BDB-9736-EE7B4394F53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7CDE7A-6A1A-4BDB-9736-EE7B4394F53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7CDE7A-6A1A-4BDB-9736-EE7B4394F53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7CDE7A-6A1A-4BDB-9736-EE7B4394F53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313609F3-3910-4093-B8CA-5C7D45444D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313609F3-3910-4093-B8CA-5C7D45444D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313609F3-3910-4093-B8CA-5C7D45444D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313609F3-3910-4093-B8CA-5C7D45444D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADA231BC-2D7F-476A-9297-1626E9BD3443}
+	EndGlobalSection
+EndGlobal

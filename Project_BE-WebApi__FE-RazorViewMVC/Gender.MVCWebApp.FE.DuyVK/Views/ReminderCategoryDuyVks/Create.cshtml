@@ -1,0 +1,108 @@
+﻿@model Gender.Repositories.DuyVK.Models.ReminderCategoryDuyVK
+@{
+    ViewData["Title"] = "Create Reminder Category";
+}
+
+<style>
+    /* Gradient header */
+    .page-header {
+        background: linear-gradient(90deg, #6B73FF 0%, #000DFF 100%);
+        color: #fff;
+        padding: 1rem 1.5rem;
+        border-radius: .5rem;
+        margin-bottom: 1.5rem;
+    }
+    /* Card wrapper */
+    .form-card {
+        border-radius: .5rem;
+        box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+    }
+    /* Larger inputs and selects */
+    .form-control, .form-select {
+        border-radius: .5rem;
+        padding: .75rem 1rem;
+    }
+    /* Toggle button for IsActive */
+    .btn-check + .btn-outline-success {
+        min-width: 140px;
+    }
+    /* Submit/Cancel buttons */
+    .btn-submit {
+        border-radius: 50px;
+        padding: .75rem 1.5rem;
+    }
+</style>
+
+<section class="page-header">
+    <h1 class="h3 mb-0">@ViewData["Title"]</h1>
+</section>
+
+<div class="card form-card mb-4">
+    <div class="card-body">
+        <form asp-action="Create" method="post" novalidate>
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="Code" class="form-label">Code</label>
+                <input asp-for="Code" class="form-control form-control-lg" />
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Name</label>
+                <input asp-for="Name" class="form-control form-control-lg" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Description</label>
+                <textarea asp-for="Description" class="form-control form-control-lg" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="ColorCode" class="form-label">Color Code</label>
+                <input asp-for="ColorCode" type="color" class="form-control form-control-lg p-1" />
+                <span asp-validation-for="ColorCode" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <input type="checkbox" class="form-check-input"
+                       id="IsActive"
+                       name="IsActive"
+                       value="true"
+                       @(Model.IsActive == true ? "checked" : "") />
+                <input type="hidden" name="IsActive" value="" />
+                <label class="form-check-label" for="IsActive">@Html.DisplayNameFor(m => m.IsActive)</label>
+                <span asp-validation-for="IsActive" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PriorityLevel" class="form-label">Priority Level</label>
+                <input asp-for="PriorityLevel" type="number" class="form-control form-control-lg" />
+                <span asp-validation-for="PriorityLevel" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="DefaultOffset" class="form-label">Default Offset (days)</label>
+                <input asp-for="DefaultOffset" type="number" class="form-control form-control-lg" />
+                <span asp-validation-for="DefaultOffset" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-end">
+                <a asp-action="Index" class="btn btn-secondary btn-submit me-3">
+                    Cancel
+                </a>
+                <button type="submit" class="btn btn-success btn-submit">
+                    <i class="bi bi-plus-lg me-1"></i>Create
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

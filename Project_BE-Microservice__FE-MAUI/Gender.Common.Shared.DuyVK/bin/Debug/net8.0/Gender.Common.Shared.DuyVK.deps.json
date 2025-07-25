@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Gender.Common.Shared.DuyVK/1.0.0": {
+        "runtime": {
+          "Gender.Common.Shared.DuyVK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gender.Common.Shared.DuyVK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

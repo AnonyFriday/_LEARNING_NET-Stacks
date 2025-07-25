@@ -1,0 +1,6 @@
+@Gender.ReminderCategoryDuyVKs.Microservices.DuyVK_HostAddress = http://localhost:5111
+
+GET {{Gender.ReminderCategoryDuyVKs.Microservices.DuyVK_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

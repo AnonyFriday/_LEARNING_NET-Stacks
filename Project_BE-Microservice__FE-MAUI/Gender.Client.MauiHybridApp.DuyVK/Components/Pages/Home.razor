@@ -1,0 +1,268 @@
+﻿@page "/"
+@using System.Text.Json
+@using System.Text
+@using Gender.BusinessObject.Shared.Models.DuyVK.Models
+
+<h1 class="mb-4">Menstrual Cycle Reminders</h1>
+
+<div class="container py-4">
+    <h1 class="mb-4">Menstrual Cycle Reminders</h1>
+
+    <div class="row gx-4 gy-4">
+        <!-- Form Card -->
+        <div class="col-12 col-lg-5">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <strong>Create / Edit Reminder</strong>
+                </div>
+                <div class="card-body">
+                    <EditForm Model="@MenstrualCycleReminderDuyVK" OnValidSubmit="HandleSubmit">
+                        <DataAnnotationsValidator />
+                        <ValidationSummary />
+
+                        <div class="row gy-3">
+                            <div class="col-12">
+                                <label class="form-label">Title</label>
+                                <InputText class="form-control" @bind-Value="MenstrualCycleReminderDuyVK.Title" />
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Note</label>
+                                <InputText class="form-control" @bind-Value="MenstrualCycleReminderDuyVK.Note" />
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">Reminder Date</label>
+                                <InputDate class="form-control" @bind-Value="MenstrualCycleReminderDuyVK.ReminderDate" />
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">Sent At</label>
+                                <InputDate class="form-control" @bind-Value="MenstrualCycleReminderDuyVK.SentAt" />
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Category</label>
+                                <InputSelect class="form-select" @bind-Value="MenstrualCycleReminderDuyVK.ReminderCategoryDuyVKid">
+                                    <option value="">-- Select --</option>
+                                    @foreach (var cat in ReminderCategoryDuyVKs)
+                                    {
+                                        <option value="@cat.ReminderCategoryDuyVKid">@cat.Name</option>
+                                    }
+                                </InputSelect>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">Repeat (days)</label>
+                                <InputNumber class="form-control" @bind-Value="MenstrualCycleReminderDuyVK.RepeatInterval" />
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">Importance Score</label>
+                                <InputNumber class="form-control" @bind-Value="MenstrualCycleReminderDuyVK.ImportanceScore" />
+                            </div>
+                        </div>
+
+                        <div class="mt-4 d-flex justify-content-end">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Message))
+                        {
+                            <div class="alert alert-info mt-3">@Message</div>
+                        }
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table Card -->
+        <div class="col-12 col-lg-7">
+            <div class="card shadow-sm">
+                <div class="card-header bg-secondary text-white">
+                    <strong>Existing Reminders</strong>
+                </div>
+                <div class="card-body p-0">
+                    @if (MenstrualCycleReminderDuyVKs?.Any() != true)
+                    {
+                        <p class="m-3 text-muted">No reminders found.</p>
+                    }
+                    else
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-striped mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Category</th>
+                                        <th>Title</th>
+                                        <th>Reminder</th>
+                                        <th>Sent At</th>
+                                        <th>Sent?</th>
+                                        <th>Repeat</th>
+                                        <th>Score</th>
+                                        <th>Created</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in MenstrualCycleReminderDuyVKs)
+                                    {
+                                        <tr>
+                                            <td>@item.MenstrualCycleReminderDuyVKid</td>
+                                            <td>@item.ReminderCategoryDuyVKid</td>
+                                            <td>@item.Title</td>
+                                            <td>@item.ReminderDate:yyyy-MM-dd</td>
+                                            <td>@item.SentAt?.ToString("yyyy-MM-dd")</td>
+                                            <td>@(item.IsSent.HasValue ? "Yes" : "No")</td>
+                                            <td>@item.RepeatInterval</td>
+                                            <td>@item.ImportanceScore</td>
+                                            <td>@item.CreatedAt?.ToString("yyyy-MM-dd")</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    public MenstrualCycleReminderDuyVK? MenstrualCycleReminderDuyVK { get; set; } = new();
+    public List<MenstrualCycleReminderDuyVK> MenstrualCycleReminderDuyVKs { get; set; } = new();
+    public List<ReminderCategoryDuyVK> ReminderCategoryDuyVKs { get; set; } = new();
+
+    // hard-coded bases here:
+#if ANDROID || IOS
+    private const string BaseApiUrl = "https://1835218c7038.ngrok-free.app";
+#else
+    private const string BaseApiUrl = "https://localhost:7170";
+#endif
+
+    private string reminderApiUrl => $"{BaseApiUrl}/gateway/menstrualCycleReminderDuyVK";
+    private string categoryApiUrl => $"{BaseApiUrl}/gateway/reminderCategoryDuyVK";
+
+    public string Message { get; set; } = "";
+
+    /// <summary>
+    /// On intiailization, load the initial data of the reminders and categories.
+    /// </summary>
+    protected override async Task OnInitializedAsync()
+    {
+        MenstrualCycleReminderDuyVKs = await GetMenstrualCycleReminders();
+        ReminderCategoryDuyVKs = await GetReminderCategories();
+    }
+
+    private async Task<List<ReminderCategoryDuyVK>> GetReminderCategories()
+    {
+        var handler = new HttpClientHandler();
+        using (var httpClient = new HttpClient(handler))
+        {
+            try
+            {
+                var response = await httpClient.GetAsync(categoryApiUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    var categories = JsonSerializer.Deserialize<List<ReminderCategoryDuyVK>>(json, new JsonSerializerOptions()
+                    {
+                        PropertyNameCaseInsensitive = true,
+                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                    });
+                    return categories ?? new List<ReminderCategoryDuyVK>();
+                }
+            }
+            catch (Exception ex)
+            {
+                Message = $"Error fetching categories: {ex.Message}";
+                return new List<ReminderCategoryDuyVK>();
+            }
+
+        }
+
+        return new List<ReminderCategoryDuyVK>();
+    }
+
+    /// <summary>
+    /// Loading the menstrual cycle reminders from the API.
+    /// </summary>
+    /// <returns></returns>
+    private async Task<List<MenstrualCycleReminderDuyVK>> GetMenstrualCycleReminders()
+    {
+        var handler = new HttpClientHandler();
+        using (var httpClient = new HttpClient(handler))
+        {
+            try
+            {
+                var response = await httpClient.GetAsync(reminderApiUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    var reminders = JsonSerializer.Deserialize<List<MenstrualCycleReminderDuyVK>>(json, new JsonSerializerOptions()
+                    {
+                        PropertyNameCaseInsensitive = true,
+                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                    });
+                    return reminders ?? new List<MenstrualCycleReminderDuyVK>();
+                }
+            }
+            catch (Exception ex)
+            {
+                Message = $"Error fetching reminders: {ex.Message}";
+                return new List<MenstrualCycleReminderDuyVK>();
+            }
+        }
+
+        return new List<MenstrualCycleReminderDuyVK>();
+    }
+    /// <summary>
+    /// Handle the form submission to send the reminder data to the API.
+    /// </summary>
+    /// <returns></returns>
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            MenstrualCycleReminderDuyVK.CreatedAt = DateTime.UtcNow;
+            MenstrualCycleReminderDuyVK.UpdatedAt = DateTime.UtcNow;
+            MenstrualCycleReminderDuyVK.IsSent = false;
+
+            // Demonstration for the Max Id
+            var highestId = MenstrualCycleReminderDuyVKs.Max(s => s.MenstrualCycleReminderDuyVKid);
+            MenstrualCycleReminderDuyVK.MenstrualCycleReminderDuyVKid = highestId + 1;
+
+            var handler = new HttpClientHandler();
+
+            using (var httpClient = new HttpClient(handler))
+            {
+                // POST content
+                var json = JsonSerializer.Serialize(MenstrualCycleReminderDuyVK);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                var response = await httpClient.PostAsync(reminderApiUrl, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    Message = "Reminder submitted successfully!";
+
+                    // reset list
+                    await ResetFormAndList();
+                }
+                else
+                {
+                    Message = $"Error: {response.ReasonPhrase}";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Message = $"Error: {ex.Message}";
+        }
+    }
+
+    /// <summary>
+    /// Reset the form after loading
+    /// </summary>
+    /// <returns></returns>
+    private async Task ResetFormAndList()
+    {
+        MenstrualCycleReminderDuyVKs = await GetMenstrualCycleReminders();
+        MenstrualCycleReminderDuyVK = new MenstrualCycleReminderDuyVK();
+    }
+}
+

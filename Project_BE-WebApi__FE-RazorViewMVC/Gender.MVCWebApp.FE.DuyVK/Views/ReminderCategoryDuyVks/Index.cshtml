@@ -1,0 +1,153 @@
+﻿@using System.Security.Claims
+@model PaginationResultResponseVM<List<ReminderCategoryDuyVK>>
+
+@{
+    ViewData["Title"] = "Reminder Categories";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gender.MVCWebApp.FE.DuyVK</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <style>
+        /* page header gradient */
+        .page-header {
+            background: linear-gradient(90deg, #6B73FF 0%, #000DFF 100%);
+            color: #fff;
+            padding: 1rem 1.5rem;
+            border-radius: .5rem;
+            margin-bottom: 1.5rem;
+        }
+        /* cards */
+        .card-list {
+            border-radius: .5rem;
+            box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+        }
+        /* color badge */
+        .badge-color {
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            border-radius: .25rem;
+            margin-right: .25rem;
+            border: 1px solid #ddd;
+            vertical-align: middle;
+        }
+        /* table hover */
+        .table-hover tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        /* pagination active */
+        .pagination .page-item.active .page-link {
+            background-color: #000DFF;
+            border-color: #000DFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+
+        <div class="page-header">
+            <h1 class="h3 mb-0">Reminder Categories</h1>
+        </div>
+
+        <div class="mb-4 d-flex justify-content-end">
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-lg"></i> New Category
+            </a>
+        </div>
+
+        <div class="card card-list">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].Code)</th>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].Name)</th>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].Description)</th>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].ColorCode)</th>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].IsActive)</th>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].PriorityLevel)</th>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].DefaultOffset)</th>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].CreatedAt)</th>
+                            <th>@Html.DisplayNameFor(m => m.Items[0].UpdatedAt)</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Items)
+                        {
+                            <tr>
+                                <td>@item.Code</td>
+                                <td>@item.Name</td>
+                                <td>@item.Description</td>
+                                <td>
+                                    @if (!string.IsNullOrEmpty(item.ColorCode))
+                                    {
+                                        <span class="badge-color" style="background-color:@item.ColorCode"></span>
+                                        @item.ColorCode
+                                    }
+                                </td>
+                                <td>@(item.IsActive == true ? "Yes" : "No")</td>
+                                <td>@item.PriorityLevel</td>
+                                <td>@item.DefaultOffset</td>
+                                <td>@item.CreatedAt?.ToString("yyyy-MM-dd HH:mm")</td>
+                                <td>@item.UpdatedAt?.ToString("yyyy-MM-dd HH:mm")</td>
+                                <td class="text-nowrap">
+                                    <a asp-action="Edit" asp-route-id="@item.ReminderCategoryDuyVKid" class="btn btn-sm btn-warning me-1">
+                                        <i class="bi bi-pencil">Edit</i>
+                                    </a>
+
+                                    @if (User.FindFirstValue(ClaimTypes.Role) == "1")
+                                    {
+                                        <a asp-action="Delete" asp-route-id="@item.ReminderCategoryDuyVKid" class="btn btn-sm btn-danger">
+                                            <i class="bi bi-trash">Delete</i>
+                                        </a>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            @if (Model.TotalPages > 1)
+            {
+                <div class="card-footer d-flex justify-content-center">
+                    <nav>
+                        <ul class="pagination mb-0">
+                            @if (Model.CurrentPage > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" asp-action="Index" asp-route-currentPage="@(Model.CurrentPage - 1)" asp-route-pageSize="@Model.PageSize">Previous</a>
+                                </li>
+                            }
+                            @for (int i = 1; i <= Model.TotalPages; i++)
+                            {
+                                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                                    <a class="page-link" asp-action="Index" asp-route-currentPage="@i" asp-route-pageSize="@Model.PageSize">@i</a>
+                                </li>
+                            }
+                            @if (Model.CurrentPage < Model.TotalPages)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" asp-action="Index" asp-route-currentPage="@(Model.CurrentPage + 1)" asp-route-pageSize="@Model.PageSize">Next</a>
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                </div>
+            }
+        </div>
+
+    </div>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

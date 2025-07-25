@@ -1,0 +1,64 @@
+﻿@model MenstrualCycleReminderDuyVKServiceReference.MenstrualCycleReminderDuyVK
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>MenstrualCycleReminderDuyVK</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ReminderCategoryDuyVKid" class="control-label"></label>
+                <select asp-for="ReminderCategoryDuyVKid" class="form-control" asp-items="ViewBag.ReminderCategoryDuyVKid"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Note" class="control-label"></label>
+                <input asp-for="Note" class="form-control" />
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReminderDate" class="control-label"></label>
+                <input asp-for="ReminderDate" class="form-control" />
+                <span asp-validation-for="ReminderDate" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input"
+                       id="IsSent"
+                       name="IsSent"
+                       value="true"
+                       @(Model.IsSent == true ? "checked" : "") />
+                <input type="hidden" name="IsSent" value="" />
+                <label class="form-check-label" for="IsActive">@Html.DisplayNameFor(m => m.IsSent)</label>
+                <span asp-validation-for="IsSent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RepeatInterval" class="control-label"></label>
+                <input asp-for="RepeatInterval" class="form-control" />
+                <span asp-validation-for="RepeatInterval" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

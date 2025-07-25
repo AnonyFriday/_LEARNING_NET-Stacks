@@ -1,0 +1,6 @@
+@Gender.APIServices.BE.DuyVK_HostAddress = http://localhost:5168
+
+GET {{Gender.APIServices.BE.DuyVK_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,60 @@
+﻿@page "/MenstrualCycleReminderDuyVKs/MenstrualCycleReminderDuyVKDetail/{id:int}"
+@using Gender.GraphQLClient.BlazorWAS.DuyVK.Models
+@using Microsoft.AspNetCore.Authorization
+@* @attribute [Authorize(Roles = "1,2")] *@
+@inject NavigationManager _navigationManager;
+
+<!-- Show loading text while data is being fetched -->
+@if (reminder == null)
+{
+    <div>Page loading...</div>
+}
+else
+{
+    <div class="card p-3">
+        <h4>@reminder.Title</h4>
+        <p><strong>Note:</strong> @reminder.Note</p>
+        <p><strong>Reminder Date:</strong> @reminder.ReminderDate.ToString("dd/MM/yyyy")</p>
+        <p><strong>Sent At:</strong> @(reminder.SentAt?.ToString("dd/MM/yyyy") ?? "-")</p>
+        <p><strong>Is Sent:</strong> @(reminder.IsSent ? "Yes" : "No")</p>
+        <p><strong>Repeat Interval:</strong> @reminder.RepeatInterval</p>
+        <p><strong>Importance Score:</strong> @reminder.ImportanceScore</p>
+        <p><strong>Created At:</strong> @reminder.CreatedAt.Value.ToString("dd/MM/yyyy")</p>
+        <p><strong>Updated At:</strong> @reminder.UpdatedAt.Value.ToString("dd/MM/yyyy")</p>
+    </div>
+
+    <button type="button" class="btn btn-secondary ms-2" @onclick="GoBack">Cancel</button>
+}
+
+<!-- Code block -->
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    // Get the variable from the
+    private MenstrualCycleReminderDuyVK reminder;
+
+    // On Init
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Load reminders from GraphQL service
+            reminder = await _reminderGraphQLConsumer.GetByIdAsync(id);
+        }
+        catch (Exception ex)
+        {
+            // You may want to log or display this error in production
+            Console.WriteLine($"Failed to load reminder: {ex.Message}");
+        }
+    }
+
+    /// <summary>
+    /// Go back to the list
+    /// </summary>
+    private void GoBack()
+    {
+        _navigationManager.NavigateTo("/MenstrualCycleReminderDuyVKs/MenstrualCycleReminderDuyVKList");
+    }
+}

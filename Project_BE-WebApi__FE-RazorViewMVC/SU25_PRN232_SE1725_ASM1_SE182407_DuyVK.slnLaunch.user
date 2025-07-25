@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

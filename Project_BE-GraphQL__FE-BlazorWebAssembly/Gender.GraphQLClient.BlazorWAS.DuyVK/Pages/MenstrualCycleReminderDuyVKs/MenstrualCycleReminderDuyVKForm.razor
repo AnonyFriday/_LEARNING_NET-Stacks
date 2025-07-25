@@ -1,0 +1,138 @@
+﻿@page "/MenstrualCycleReminderDuyVKs/MenstrualCycleReminderDuyVKForm/{id:int?}"
+
+@using Gender.GraphQLClient.BlazorWAS.DuyVK.Models
+@using Microsoft.AspNetCore.Authorization
+@* @attribute [Authorize(Roles = "1,2")] *@
+@inject NavigationManager Navigation
+
+<!-- Show loading text while data is being fetched -->
+@if (reminder == null)
+{
+    <p>Preparing form...</p>
+}
+else
+{
+    <EditForm Model="@reminder" OnValidSubmit="async () => await onSubmitUpdateSave()">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label class="form-label">Title</label>
+            <InputText class="form-control" @bind-Value="reminder.Title" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Note</label>
+            <InputTextArea class="form-control" @bind-Value="reminder.Note" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Reminder Date</label>
+            <InputDate class="form-control" @bind-Value="reminder.ReminderDate" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Sent At</label>
+            <InputDate class="form-control" @bind-Value="reminder.SentAt" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Is Sent</label>
+            <InputCheckbox class="form-check-input" @bind-Value="reminder.IsSent" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Repeat Interval</label>
+            <InputNumber class="form-control" @bind-Value="reminder.RepeatInterval" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Importance Score</label>
+            <InputNumber class="form-control" @bind-Value="reminder.ImportanceScore" />
+        </div>
+
+        @* Reminder Categories *@
+        <div class="mb-3">
+            <label class="form-label">Reminder Category</label>
+            <InputSelect class="form-select" @bind-Value="reminder.ReminderCategoryDuyVKid">
+                <option value="" disabled>-- Select Category --</option>
+                @foreach (var category in reminderCategories)
+                {
+                    <option value="@category.ReminderCategoryDuyVKid">@category.Name</option>
+                }
+            </InputSelect>
+        </div>
+
+
+        <button type="submit" class="btn btn-success">
+            @textButton
+        </button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="GoBack">Cancel</button>
+    </EditForm>
+}
+
+<!-- Code block -->
+@code {
+    [Parameter]
+    public int? id { get; set; }
+
+    private MenstrualCycleReminderDuyVK reminder;
+    private List<ReminderCategoryDuyVK> reminderCategories;
+    private string textButton = "UPDATE";
+
+    protected override async Task OnInitializedAsync()
+    {
+        reminderCategories = await _categoryGraphQLConsumer.GetReminderCategoryDuyVKListAll();
+
+        // For edit only
+        if (id.HasValue)
+        {
+            textButton = "UPDATE";
+            reminder = await _reminderGraphQLConsumer.GetByIdAsync(id.Value);
+        }
+        else
+        {
+            textButton = "ADD";
+            reminder = new MenstrualCycleReminderDuyVK()
+            {
+                ReminderDate = DateTime.UtcNow,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+        }
+    }
+
+    /// <summary>
+    /// Update the valid submit
+    /// </summary>
+    /// <returns></returns>
+    private async Task onSubmitUpdateSave()
+    {
+        bool isSuccess = false;
+        // Edit mode or Add mode
+        if (id.HasValue)
+        {
+            isSuccess = await _reminderGraphQLConsumer.UpdateAsync(reminder);
+            if (isSuccess)
+            {
+                Navigation.NavigateTo($"/MenstrualCycleReminderDuyVKs/MenstrualCycleReminderDuyVKDetail/{reminder.MenstrualCycleReminderDuyVKid}");
+            }
+        }
+        else
+        {
+            isSuccess = await _reminderGraphQLConsumer.CreateAsync(reminder);
+            if (isSuccess)
+            {
+                Navigation.NavigateTo($"/MenstrualCycleReminderDuyVKs/MenstrualCycleReminderDuyVKList");
+            }
+        }
+    }
+
+    /// <summary>
+    /// Go back to the list
+    /// </summary>
+    private void GoBack()
+    {
+        Navigation.NavigateTo("/MenstrualCycleReminderDuyVKs/MenstrualCycleReminderDuyVKList");
+    }
+}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.Repositories.DuyVK", "Gender.Repositories.DuyVK\Gender.Repositories.DuyVK.csproj", "{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.Services.DuyVK", "Gender.Services.DuyVK\Gender.Services.DuyVK.csproj", "{77341B47-EAC6-498E-AF11-E9FFCC927456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.GraphQL.APIServices.DuyVK", "Gender.GraphQL.APIServices.DuyVK\Gender.GraphQL.APIServices.DuyVK.csproj", "{BCD3AEE8-2481-4C23-9A31-A7626D916591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gender.GraphQLClient.BlazorWAS.DuyVK", "Gender.GraphQLClient.BlazorWAS.DuyVK\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj", "{C0203762-DF13-40C0-A2C0-E4C6AD087E61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77341B47-EAC6-498E-AF11-E9FFCC927456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77341B47-EAC6-498E-AF11-E9FFCC927456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77341B47-EAC6-498E-AF11-E9FFCC927456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77341B47-EAC6-498E-AF11-E9FFCC927456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD3AEE8-2481-4C23-9A31-A7626D916591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD3AEE8-2481-4C23-9A31-A7626D916591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD3AEE8-2481-4C23-9A31-A7626D916591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD3AEE8-2481-4C23-9A31-A7626D916591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0203762-DF13-40C0-A2C0-E4C6AD087E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0203762-DF13-40C0-A2C0-E4C6AD087E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0203762-DF13-40C0-A2C0-E4C6AD087E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0203762-DF13-40C0-A2C0-E4C6AD087E61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33AA693B-6C03-4429-BF7E-18D229A98DC3}
+	EndGlobalSection
+EndGlobal

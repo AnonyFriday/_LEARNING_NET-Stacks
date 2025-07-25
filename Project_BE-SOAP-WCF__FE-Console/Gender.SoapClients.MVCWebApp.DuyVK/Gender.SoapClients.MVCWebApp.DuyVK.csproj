@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Remove="Connected Services\MenstrualCycleReminderDuyVKServiceReference\ConnectedService.json" />
+		<Content Remove="Connected Services\ReminderCategoryDuyVKServiceReference\ConnectedService.json" />
+		<Content Remove="Connected Services\SystemUserAccountDuyVKServiceReference\ConnectedService.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.ServiceModel.Http" Version="8.*" />
+		<PackageReference Include="System.ServiceModel.NetTcp" Version="8.*" />
+		<PackageReference Include="System.ServiceModel.Primitives" Version="8.*" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="Connected Services\MenstrualCycleReminderDuyVKServiceReference\ConnectedService.json" />
+		<None Include="Connected Services\ReminderCategoryDuyVKServiceReference\ConnectedService.json" />
+		<None Include="Connected Services\SystemUserAccountDuyVKServiceReference\ConnectedService.json" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/MenstrualCycleReminderDuyVK",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7166
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/menstrualCycleReminderDuyVK",
+      "UpstreamHttpMethod": [ "POST", "GET" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ReminderCategoryDuyVK",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7078
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/reminderCategoryDuyVK",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ]
+}

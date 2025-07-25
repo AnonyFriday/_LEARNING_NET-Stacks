@@ -1,0 +1,867 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.apiservices.be.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|solutionrelative:gender.apiservices.be.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\controllers\\menstrualcyclereminderduyvkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\controllers\\menstrualcyclereminderduyvkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\gender.mvcwebapp.fe.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\gender.mvcwebapp.fe.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.apiservices.be.duyvk\\controllers\\menstrualcyclereminderduyvkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|solutionrelative:gender.apiservices.be.duyvk\\controllers\\menstrualcyclereminderduyvkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\gender.mvcwebapp.fe.duyvk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\gender.mvcwebapp.fe.duyvk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.repositories.duyvk\\models\\menstrualcyclereminderduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\models\\menstrualcyclereminderduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.apiservices.be.duyvk\\controllers\\remindercategoryduyvkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|solutionrelative:gender.apiservices.be.duyvk\\controllers\\remindercategoryduyvkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\controllers\\remindercategoryduyvkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\controllers\\remindercategoryduyvkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.repositories.duyvk\\menstrualcyclereminderduyvkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\menstrualcyclereminderduyvkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.apiservices.be.duyvk\\controllers\\systemuseraccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|solutionrelative:gender.apiservices.be.duyvk\\controllers\\systemuseraccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.apiservices.be.duyvk\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|solutionrelative:gender.apiservices.be.duyvk\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.apiservices.be.duyvk\\gender.apiservices.be.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|solutionrelative:gender.apiservices.be.duyvk\\gender.apiservices.be.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.repositories.duyvk\\models\\remindercategoryduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\models\\remindercategoryduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\menstrualcyclereminderduyvks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\remindercategoryduyvks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\remindercategoryduyvks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\remindercategoryduyvks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\remindercategoryduyvks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\remindercategoryduyvks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\remindercategoryduyvks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\remindercategoryduyvks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\remindercategoryduyvks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\account\\forbidden.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\account\\forbidden.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\models\\loginrequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\models\\loginrequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\models\\paginationresultresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\models\\paginationresultresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.mvcwebapp.fe.duyvk\\models\\errorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9658C5-CB71-85BD-2AEE-FE757155C8BF}|Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj|solutionrelative:gender.mvcwebapp.fe.duyvk\\models\\errorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.services.duyvk\\interfaces\\imenstrualcyclereminderduyvkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|solutionrelative:gender.services.duyvk\\interfaces\\imenstrualcyclereminderduyvkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.services.duyvk\\menstrualcyclereminderduyvkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|solutionrelative:gender.services.duyvk\\menstrualcyclereminderduyvkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.services.duyvk\\systemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|solutionrelative:gender.services.duyvk\\systemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.services.duyvk\\remindercategoryduyvkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|solutionrelative:gender.services.duyvk\\remindercategoryduyvkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.services.duyvk\\interfaces\\isystemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|solutionrelative:gender.services.duyvk\\interfaces\\isystemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.services.duyvk\\gender.services.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E8D3766-2FC0-0D47-ABB6-50A6A9A6052E}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|solutionrelative:gender.services.duyvk\\gender.services.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.repositories.duyvk\\systemuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\systemuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.apiservices.be.duyvk\\gender.apiservices.be.duyvk.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D09C77C1-BD60-62B7-3B08-412D789CB2E0}|Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj|solutionrelative:gender.apiservices.be.duyvk\\gender.apiservices.be.duyvk.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.repositories.duyvk\\basic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\basic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm1_se182407_duyvk\\gender.repositories.duyvk\\gender.repositories.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02417C78-7AF2-F0BE-3844-B2A2E8A9591A}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\gender.repositories.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1101,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1778342401:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1646721036:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2102939616:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Program.cs",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Program.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Program.cs",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:50:07.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenstrualCycleReminderDuyVKsController.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Controllers\\MenstrualCycleReminderDuyVKsController.cs",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Controllers\\MenstrualCycleReminderDuyVKsController.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Controllers\\MenstrualCycleReminderDuyVKsController.cs",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Controllers\\MenstrualCycleReminderDuyVKsController.cs",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAswDYBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T17:55:02.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Program.cs",
+              "RelativeDocumentMoniker": "Gender.APIServices.BE.DuyVK\\Program.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Program.cs",
+              "RelativeToolTip": "Gender.APIServices.BE.DuyVK\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T09:47:54.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gender.MVCWebApp.FE.DuyVK.csproj",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T17:54:28.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA9wEEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T17:24:54.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenstrualCycleReminderDuyVKController.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Controllers\\MenstrualCycleReminderDuyVKController.cs",
+              "RelativeDocumentMoniker": "Gender.APIServices.BE.DuyVK\\Controllers\\MenstrualCycleReminderDuyVKController.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Controllers\\MenstrualCycleReminderDuyVKController.cs",
+              "RelativeToolTip": "Gender.APIServices.BE.DuyVK\\Controllers\\MenstrualCycleReminderDuyVKController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAqwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T09:00:41.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenstrualCycleReminderDuyVK.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:37:25.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReminderCategoryDuyVKController.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Controllers\\ReminderCategoryDuyVKController.cs",
+              "RelativeDocumentMoniker": "Gender.APIServices.BE.DuyVK\\Controllers\\ReminderCategoryDuyVKController.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Controllers\\ReminderCategoryDuyVKController.cs",
+              "RelativeToolTip": "Gender.APIServices.BE.DuyVK\\Controllers\\ReminderCategoryDuyVKController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwIsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:48:33.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReminderCategoryDuyVKsController.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Controllers\\ReminderCategoryDuyVKsController.cs",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Controllers\\ReminderCategoryDuyVKsController.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Controllers\\ReminderCategoryDuyVKsController.cs",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Controllers\\ReminderCategoryDuyVKsController.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAYwNEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T17:55:14.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Edit.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Edit.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Edit.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwG0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T17:56:23.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Details.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Details.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Details.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Details.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T08:38:57.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gender.MVCWebApp.FE.DuyVK",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Gender.MVCWebApp.FE.DuyVK.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-19T09:25:36.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Index.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Index.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Index.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAUwJAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:20:42.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Delete.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Delete.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:55:37.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenstrualCycleReminderDuyVKRepository.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\MenstrualCycleReminderDuyVKRepository.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\MenstrualCycleReminderDuyVKRepository.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\MenstrualCycleReminderDuyVKRepository.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\MenstrualCycleReminderDuyVKRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:38:30.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SystemUserAccountsController.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Controllers\\SystemUserAccountsController.cs",
+              "RelativeDocumentMoniker": "Gender.APIServices.BE.DuyVK\\Controllers\\SystemUserAccountsController.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Controllers\\SystemUserAccountsController.cs",
+              "RelativeToolTip": "Gender.APIServices.BE.DuyVK\\Controllers\\SystemUserAccountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T10:15:59.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReminderCategoryDuyVK.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Models\\ReminderCategoryDuyVK.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\Models\\ReminderCategoryDuyVK.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Models\\ReminderCategoryDuyVK.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\Models\\ReminderCategoryDuyVK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:46:50.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Gender.APIServices.BE.DuyVK\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Gender.APIServices.BE.DuyVK\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T07:49:40.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Gender.APIServices.BE.DuyVK.csproj",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj",
+              "RelativeDocumentMoniker": "Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj",
+              "RelativeToolTip": "Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T17:53:34.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Create.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Create.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Create.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\MenstrualCycleReminderDuyVks\\Create.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwE8AAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:08:25.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Index.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Index.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Index.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T19:05:46.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwEcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:06:28.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Delete.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Delete.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T19:05:49.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Edit.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Edit.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T19:05:48.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Create.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Create.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Create.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\ReminderCategoryDuyVks\\Create.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T19:02:32.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwFAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:03:33.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Forbidden.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Account\\Forbidden.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\Account\\Forbidden.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Account\\Forbidden.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\Account\\Forbidden.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T06:35:21.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\appsettings.json",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\appsettings.json",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\appsettings.json",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T18:01:57.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginRequestVM.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Models\\LoginRequestVM.cs",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Models\\LoginRequestVM.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Models\\LoginRequestVM.cs",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Models\\LoginRequestVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T17:24:51.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PaginationResultResponseVM.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Models\\PaginationResultResponseVM.cs",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Models\\PaginationResultResponseVM.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Models\\PaginationResultResponseVM.cs",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Models\\PaginationResultResponseVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T17:24:50.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:06:25.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:07:22.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:07:24.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ErrorVM.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Models\\ErrorVM.cs",
+              "RelativeDocumentMoniker": "Gender.MVCWebApp.FE.DuyVK\\Models\\ErrorVM.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.MVCWebApp.FE.DuyVK\\Models\\ErrorVM.cs",
+              "RelativeToolTip": "Gender.MVCWebApp.FE.DuyVK\\Models\\ErrorVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T17:24:52.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MenstrualCycleReminderDuyVKService.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\MenstrualCycleReminderDuyVKService.cs",
+              "RelativeDocumentMoniker": "Gender.Services.DuyVK\\MenstrualCycleReminderDuyVKService.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\MenstrualCycleReminderDuyVKService.cs",
+              "RelativeToolTip": "Gender.Services.DuyVK\\MenstrualCycleReminderDuyVKService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T17:54:03.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IMenstrualCycleReminderDuyVKService.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\Interfaces\\IMenstrualCycleReminderDuyVKService.cs",
+              "RelativeDocumentMoniker": "Gender.Services.DuyVK\\Interfaces\\IMenstrualCycleReminderDuyVKService.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\Interfaces\\IMenstrualCycleReminderDuyVKService.cs",
+              "RelativeToolTip": "Gender.Services.DuyVK\\Interfaces\\IMenstrualCycleReminderDuyVKService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T09:27:47.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SystemUserAccountService.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\SystemUserAccountService.cs",
+              "RelativeDocumentMoniker": "Gender.Services.DuyVK\\SystemUserAccountService.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\SystemUserAccountService.cs",
+              "RelativeToolTip": "Gender.Services.DuyVK\\SystemUserAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T17:52:56.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ReminderCategoryDuyVKService.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\ReminderCategoryDuyVKService.cs",
+              "RelativeDocumentMoniker": "Gender.Services.DuyVK\\ReminderCategoryDuyVKService.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\ReminderCategoryDuyVKService.cs",
+              "RelativeToolTip": "Gender.Services.DuyVK\\ReminderCategoryDuyVKService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:26:32.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ISystemUserAccountService.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\Interfaces\\ISystemUserAccountService.cs",
+              "RelativeDocumentMoniker": "Gender.Services.DuyVK\\Interfaces\\ISystemUserAccountService.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\Interfaces\\ISystemUserAccountService.cs",
+              "RelativeToolTip": "Gender.Services.DuyVK\\Interfaces\\ISystemUserAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T09:04:25.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Gender.Services.DuyVK.csproj",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj",
+              "RelativeDocumentMoniker": "Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj",
+              "RelativeToolTip": "Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T17:54:00.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SystemUserAccountRepository.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\SystemUserAccountRepository.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\SystemUserAccountRepository.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\SystemUserAccountRepository.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\SystemUserAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T07:57:33.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Gender.APIServices.BE.DuyVK.http",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.http",
+              "RelativeDocumentMoniker": "Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.http",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.http",
+              "RelativeToolTip": "Gender.APIServices.BE.DuyVK\\Gender.APIServices.BE.DuyVK.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-09T07:57:42.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Basic\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\Basic\\GenericRepository.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Basic\\GenericRepository.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\Basic\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:49:52.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Gender.Repositories.DuyVK.csproj",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-09T06:43:01.273Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 456,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ee48ac7-d7eb-4653-a54e-3bba557ccc9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1014,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 587,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

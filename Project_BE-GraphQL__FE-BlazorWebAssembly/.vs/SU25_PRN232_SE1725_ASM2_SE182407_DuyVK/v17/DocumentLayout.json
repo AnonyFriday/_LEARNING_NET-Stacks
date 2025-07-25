@@ -1,0 +1,691 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\pages\\menstrualcyclereminderduyvks\\menstrualcyclereminderduyvkform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\pages\\menstrualcyclereminderduyvks\\menstrualcyclereminderduyvkform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\pages\\menstrualcyclereminderduyvks\\menstrualcyclereminderduyvkdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\pages\\menstrualcyclereminderduyvks\\menstrualcyclereminderduyvkdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\pages\\menstrualcyclereminderduyvks\\menstrualcyclereminderduyvklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\pages\\menstrualcyclereminderduyvks\\menstrualcyclereminderduyvklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.repositories.duyvk\\menstrualcyclereminderduyvkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\menstrualcyclereminderduyvkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.repositories.duyvk\\remindercategoryduyvkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\remindercategoryduyvkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.repositories.duyvk\\systemuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\systemuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.repositories.duyvk\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.repositories.duyvk\\iremindercategoryduyvkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\iremindercategoryduyvkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.repositories.duyvk\\models\\menstrualcyclereminderduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E9555F1-C00C-4FF0-8FCF-CBCD3287A935}|Gender.Repositories.DuyVK\\Gender.Repositories.DuyVK.csproj|solutionrelative:gender.repositories.duyvk\\models\\menstrualcyclereminderduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\graphqlclients\\menstrualcyclereminderduyvkgraphqlconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\graphqlclients\\menstrualcyclereminderduyvkgraphqlconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\models\\menstrualcyclereminderduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\models\\menstrualcyclereminderduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\models\\remindercategoryduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\models\\remindercategoryduyvk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\graphqlclients\\remindercategoryduyvkgraphqlconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\graphqlclients\\remindercategoryduyvkgraphqlconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphql.apiservices.duyvk\\graphqls\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|solutionrelative:gender.graphql.apiservices.duyvk\\graphqls\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphql.apiservices.duyvk\\graphqls\\mutations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|solutionrelative:gender.graphql.apiservices.duyvk\\graphqls\\mutations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\graphqlclients\\authenticationgraphqlconsumercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\graphqlclients\\authenticationgraphqlconsumercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphql.apiservices.duyvk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|solutionrelative:gender.graphql.apiservices.duyvk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\auth\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\auth\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\auth\\jwtauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\auth\\jwtauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\pages\\auths\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\pages\\auths\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\models\\systemuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\models\\systemuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\modelextensions\\paginationresultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\modelextensions\\paginationresultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphqlclient.blazorwas.duyvk\\modelextensions\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0203762-DF13-40C0-A2C0-E4C6AD087E61}|Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj|solutionrelative:gender.graphqlclient.blazorwas.duyvk\\modelextensions\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphql.apiservices.duyvk\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|solutionrelative:gender.graphql.apiservices.duyvk\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77341B47-EAC6-498E-AF11-E9FFCC927456}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.services.duyvk\\systemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77341B47-EAC6-498E-AF11-E9FFCC927456}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|solutionrelative:gender.services.duyvk\\systemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphql.apiservices.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|solutionrelative:gender.graphql.apiservices.duyvk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.graphql.apiservices.duyvk\\gender.graphql.apiservices.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BCD3AEE8-2481-4C23-9A31-A7626D916591}|Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj|solutionrelative:gender.graphql.apiservices.duyvk\\gender.graphql.apiservices.duyvk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77341B47-EAC6-498E-AF11-E9FFCC927456}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|e:\\learning\\inclass_fpt\\2025_semester-3\\prn232\\projects\\su25_prn232_se1725_asm2_se182407_duyvk\\gender.services.duyvk\\serviceproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77341B47-EAC6-498E-AF11-E9FFCC927456}|Gender.Services.DuyVK\\Gender.Services.DuyVK.csproj|solutionrelative:gender.services.duyvk\\serviceproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 164,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T08:56:33.89Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1778342401:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1646721036:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2102939616:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenstrualCycleReminderDuyVKRepository.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\MenstrualCycleReminderDuyVKRepository.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\MenstrualCycleReminderDuyVKRepository.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\MenstrualCycleReminderDuyVKRepository.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\MenstrualCycleReminderDuyVKRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:53:33.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenstrualCycleReminderDuyVK.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:49:54.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenstrualCycleReminderDuyVKDetail.razor",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKDetail.razor",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKDetail.razor",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKDetail.razor",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKDetail.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:04:28.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenstrualCycleReminderDuyVKList.razor",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKList.razor",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKList.razor",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKList.razor",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKList.razor",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:04:32.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenstrualCycleReminderDuyVKForm.razor",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKForm.razor",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKForm.razor",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKForm.razor",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\MenstrualCycleReminderDuyVKs\\MenstrualCycleReminderDuyVKForm.razor",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:04:30.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IReminderCategoryDuyVKRepository.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\IReminderCategoryDuyVKRepository.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\IReminderCategoryDuyVKRepository.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\IReminderCategoryDuyVKRepository.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\IReminderCategoryDuyVKRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:53:03.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReminderCategoryDuyVKRepository.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\ReminderCategoryDuyVKRepository.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\ReminderCategoryDuyVKRepository.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\ReminderCategoryDuyVKRepository.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\ReminderCategoryDuyVKRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:53:06.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SystemUserAccountRepository.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\SystemUserAccountRepository.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\SystemUserAccountRepository.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\SystemUserAccountRepository.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\SystemUserAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:53:10.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthHeaderHandler.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Auth\\AuthHeaderHandler.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Auth\\AuthHeaderHandler.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Auth\\AuthHeaderHandler.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Auth\\AuthHeaderHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:24:04.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Gender.Repositories.DuyVK\\UnitOfWork.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Repositories.DuyVK\\UnitOfWork.cs",
+              "RelativeToolTip": "Gender.Repositories.DuyVK\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:53:13.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenstrualCycleReminderDuyVK.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\MenstrualCycleReminderDuyVK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:04:07.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenstrualCycleReminderDuyVKGraphQLConsumer.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\MenstrualCycleReminderDuyVKGraphQLConsumer.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\MenstrualCycleReminderDuyVKGraphQLConsumer.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\MenstrualCycleReminderDuyVKGraphQLConsumer.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\MenstrualCycleReminderDuyVKGraphQLConsumer.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAIwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:55:29.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReminderCategoryDuyVK.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\ReminderCategoryDuyVK.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\ReminderCategoryDuyVK.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\ReminderCategoryDuyVK.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\ReminderCategoryDuyVK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:42:50.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReminderCategoryDuyVKGraphQLConsumer.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\ReminderCategoryDuyVKGraphQLConsumer.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\ReminderCategoryDuyVKGraphQLConsumer.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\ReminderCategoryDuyVKGraphQLConsumer.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\ReminderCategoryDuyVKGraphQLConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:55:35.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mutations.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\GraphQLs\\Mutations.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQL.APIServices.DuyVK\\GraphQLs\\Mutations.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\GraphQLs\\Mutations.cs",
+              "RelativeToolTip": "Gender.GraphQL.APIServices.DuyVK\\GraphQLs\\Mutations.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:56:42.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Queries.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\GraphQLs\\Queries.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQL.APIServices.DuyVK\\GraphQLs\\Queries.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\GraphQLs\\Queries.cs",
+              "RelativeToolTip": "Gender.GraphQL.APIServices.DuyVK\\GraphQLs\\Queries.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:54:59.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthenticationGraphQLConsumercs.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\AuthenticationGraphQLConsumercs.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\AuthenticationGraphQLConsumercs.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\AuthenticationGraphQLConsumercs.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\GraphQLClients\\AuthenticationGraphQLConsumercs.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:55:27.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\appsettings.json",
+              "RelativeDocumentMoniker": "Gender.GraphQL.APIServices.DuyVK\\appsettings.json",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\appsettings.json",
+              "RelativeToolTip": "Gender.GraphQL.APIServices.DuyVK\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T09:01:43.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Program.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Program.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Program.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:04:33.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JwtAuthenticationStateProvider.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Auth\\JwtAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Auth\\JwtAuthenticationStateProvider.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Auth\\JwtAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Auth\\JwtAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:07:25.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\wwwroot\\appsettings.json",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T09:20:12.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.razor",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\Auths\\Login.razor",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\Auths\\Login.razor",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\Auths\\Login.razor",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Pages\\Auths\\Login.razor",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwEUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:04:08.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SystemUserAccount.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\SystemUserAccount.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\SystemUserAccount.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\SystemUserAccount.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Models\\SystemUserAccount.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:04:21.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PaginationResultResponse.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\ModelExtensions\\PaginationResultResponse.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\ModelExtensions\\PaginationResultResponse.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\ModelExtensions\\PaginationResultResponse.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\ModelExtensions\\PaginationResultResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:04:44.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:04:45.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Layout\\NavMenu.razor",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:04:05.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\ModelExtensions\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQLClient.BlazorWAS.DuyVK\\ModelExtensions\\LoginRequest.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK\\ModelExtensions\\LoginRequest.cs",
+              "RelativeToolTip": "Gender.GraphQLClient.BlazorWAS.DuyVK\\ModelExtensions\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:04:06.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SystemUserAccountService.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Services.DuyVK\\SystemUserAccountService.cs",
+              "RelativeDocumentMoniker": "Gender.Services.DuyVK\\SystemUserAccountService.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Services.DuyVK\\SystemUserAccountService.cs",
+              "RelativeToolTip": "Gender.Services.DuyVK\\SystemUserAccountService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwDgAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:02:15.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Gender.GraphQL.APIServices.DuyVK\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Gender.GraphQL.APIServices.DuyVK\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T08:58:21.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ServiceProviders.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Services.DuyVK\\ServiceProviders.cs",
+              "RelativeDocumentMoniker": "Gender.Services.DuyVK\\ServiceProviders.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.Services.DuyVK\\ServiceProviders.cs",
+              "RelativeToolTip": "Gender.Services.DuyVK\\ServiceProviders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:57:07.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\Program.cs",
+              "RelativeDocumentMoniker": "Gender.GraphQL.APIServices.DuyVK\\Program.cs",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\Program.cs",
+              "RelativeToolTip": "Gender.GraphQL.APIServices.DuyVK\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:51:40.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Gender.GraphQL.APIServices.DuyVK.csproj",
+              "DocumentMoniker": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj",
+              "RelativeDocumentMoniker": "Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj",
+              "ToolTip": "E:\\Learning\\inclass_fpt\\2025_Semester-3\\PRN232\\Projects\\SU25_PRN232_SE1725_ASM2_SE182407_DuyVK\\Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj",
+              "RelativeToolTip": "Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T08:51:25.475Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ee48ac7-d7eb-4653-a54e-3bba557ccc9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1593,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 628,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

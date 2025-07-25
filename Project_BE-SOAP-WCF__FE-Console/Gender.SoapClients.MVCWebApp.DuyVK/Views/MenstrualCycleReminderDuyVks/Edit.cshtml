@@ -1,0 +1,86 @@
+﻿@model MenstrualCycleReminderDuyVKServiceReference.MenstrualCycleReminderDuyVK
+
+@{
+	ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>MenstrualCycleReminderDuyVK</h4>
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Edit" asp-controller="MenstrualCycleReminderDuyVks" method="post">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<input type="hidden" asp-for="MenstrualCycleReminderDuyVKid" />
+			<div class="form-group">
+				<label asp-for="ReminderCategoryDuyVKid" class="control-label"></label>
+				<select asp-for="ReminderCategoryDuyVKid" class="form-control" asp-items="ViewBag.ReminderCategoryDuyVKid"></select>
+				<span asp-validation-for="ReminderCategoryDuyVKid" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Title" class="control-label"></label>
+				<input asp-for="Title" class="form-control" />
+				<span asp-validation-for="Title" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Note" class="control-label"></label>
+				<input asp-for="Note" class="form-control" />
+				<span asp-validation-for="Note" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="ReminderDate" class="control-label"></label>
+				<input asp-for="ReminderDate" class="form-control" />
+				<span asp-validation-for="ReminderDate" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="SentAt" class="control-label"></label>
+				<input asp-for="SentAt" class="form-control" />
+				<span asp-validation-for="SentAt" class="text-danger"></span>
+			</div>
+			<div class="form-group form-check">
+				<input type="checkbox" class="form-check-input"
+					   id="IsSent"
+					   name="IsSent"
+					   value="true"
+				@(Model.IsSent == true ? "checked" : "") />
+				<input type="hidden" name="IsSent" value="" />
+				<label class="form-check-label" for="IsActive">@Html.DisplayNameFor(m => m.IsSent)</label>
+				<span asp-validation-for="IsSent" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="RepeatInterval" class="control-label"></label>
+				<input asp-for="RepeatInterval" class="form-control" />
+				<span asp-validation-for="RepeatInterval" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="ImportanceScore" class="control-label"></label>
+				<input asp-for="ImportanceScore" class="form-control" />
+				<span asp-validation-for="ImportanceScore" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="CreatedAt" class="control-label"></label>
+				<input asp-for="CreatedAt" class="form-control" />
+				<span asp-validation-for="CreatedAt" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="UpdatedAt" class="control-label"></label>
+				<input asp-for="UpdatedAt" class="form-control" />
+				<span asp-validation-for="UpdatedAt" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Save" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

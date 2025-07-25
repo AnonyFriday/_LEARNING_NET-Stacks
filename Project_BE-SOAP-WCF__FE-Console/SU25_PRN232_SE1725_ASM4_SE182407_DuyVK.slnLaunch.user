@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Gender.SoapAPiServices.DuyVK\\Gender.SoapApiServices.DuyVK.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gender.SoapClients.Console.DuyVK\\Gender.SoapClients.AppConsole.DuyVK.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

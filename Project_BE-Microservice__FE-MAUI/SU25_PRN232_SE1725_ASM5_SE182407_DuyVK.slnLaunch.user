@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Gender.OcelotAPIGateway.DuyVK\\Gender.OcelotAPIGateway.DuyVK.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gender.MenstrualCycleReminderDuyVKs.Microservices.DuyVK\\Gender.MenstrualCycleReminderDuyVKs.Microservices.DuyVK.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gender.ReminderCategoryDuyVKs.Microservices.DuyVK\\Gender.ReminderCategoryDuyVKs.Microservices.DuyVK.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gender.Client.MauiHybridApp.DuyVK\\Gender.Client.MauiHybridApp.DuyVK.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

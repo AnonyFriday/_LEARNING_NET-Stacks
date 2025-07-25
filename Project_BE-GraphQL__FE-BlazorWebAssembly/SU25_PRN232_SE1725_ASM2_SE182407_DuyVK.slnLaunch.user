@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Gender.GraphQLClient.BlazorWAS.DuyVK\\Gender.GraphQLClient.BlazorWAS.DuyVK.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gender.GraphQL.APIServices.DuyVK\\Gender.GraphQL.APIServices.DuyVK.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

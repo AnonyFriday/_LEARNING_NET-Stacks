@@ -1,0 +1,90 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Gender.GrpcService.DuyVK.Protos";
+
+import "google/protobuf/wrappers.proto";
+import "reminderCategoryDuyVK.proto";
+
+// ================================================================================
+// === Domain Model
+// ================================================================================
+
+message MenstrualCycleReminderDuyVK {
+  int32 MenstrualCycleReminderDuyVKid = 1;     // C#: int → Protobuf: int32
+  int32 ReminderCategoryDuyVKid = 2;           // C#: int → Protobuf: int32
+  string title = 3;                            // C#: string → Protobuf: string
+  string note = 4;                             // C#: string → Protobuf: string
+  string reminder_date = 5;                    // C#: DateTime → Protobuf: string (originally recommended as Timestamp)
+  string sent_at = 6;                          // C#: DateTime? → Protobuf: string
+  bool is_sent = 7;                            // C#: bool? → Protobuf: bool
+  int32 repeat_interval = 8;                   // C#: int? → Protobuf: int32
+  double importance_score = 9;                 // C#: double? → Protobuf: double
+  string created_at = 10;                      // C#: DateTime? → Protobuf: string
+  string updated_at = 11;                      // C#: DateTime? → Protobuf: string
+  ReminderCategoryDuyVK reminder_category_DuyVK = 12;         // C#: Navigation Path? -> Protobuf: maintain the same name
+}
+
+// ================================================================================
+// === Request Object
+// ================================================================================
+
+// Empty request
+message MenstrualCycleReminderDuyVKEmptyRequest {}
+
+// Requuest requires only 1 id
+message MenstrualCycleReminderDuyVKIdRequest {
+	int32 MenstrualCycleReminderDuyVKid = 1;
+}
+
+// Request requires current page and page size only
+message SearchRequest {
+	google.protobuf.Int32Value current_page = 1;
+	google.protobuf.Int32Value page_size = 2;
+}
+
+// Request pagination for domain MenstrualCycleReminderDuyVK
+message MenstrualCycleReminderDuyVKSearchRequest {
+	google.protobuf.Int32Value current_page = 1;
+	google.protobuf.Int32Value page_size = 2;
+	google.protobuf.StringValue title = 3; //nullable
+	google.protobuf.DoubleValue importance_score = 4; //nullable
+	google.protobuf.StringValue color_code = 5; //nullable
+}
+
+// ================================================================================
+// === Response Object
+// ================================================================================
+
+// Response for Update, Delete
+message MutationResultResponse {
+	bool isSuccessful = 1;
+}
+
+// Response for pagination of MenstrualCycleReminderDuyVK
+message MenstrualCycleReminderDuyVKPaginationResponse {
+	int32 total_items = 1;
+	int32 total_pages = 2;
+	int32 current_page = 3;
+	int32 page_size = 4;
+	repeated MenstrualCycleReminderDuyVK items = 5;
+}
+
+// Response for GetAllAsync without SearchRequest
+message MenstrualCycleReminderDuyVKListResponse {
+	repeated MenstrualCycleReminderDuyVK items = 1;
+}
+
+// ================================================================================
+// === Service definition
+// ================================================================================
+
+service MenstrualCycleReminderDuyVKGRPC {
+	rpc GetAll(MenstrualCycleReminderDuyVKEmptyRequest) returns (MenstrualCycleReminderDuyVKListResponse);
+	rpc GetAllPaged(SearchRequest) returns (MenstrualCycleReminderDuyVKPaginationResponse);
+	rpc GetById(MenstrualCycleReminderDuyVKIdRequest) returns (MenstrualCycleReminderDuyVK);
+	rpc Search(MenstrualCycleReminderDuyVKSearchRequest) returns (MenstrualCycleReminderDuyVKPaginationResponse);
+
+	rpc Create(MenstrualCycleReminderDuyVK) returns (MutationResultResponse);
+	rpc Update(MenstrualCycleReminderDuyVK) returns (MutationResultResponse);
+	rpc Delete(MenstrualCycleReminderDuyVKIdRequest) returns (MutationResultResponse);
+}

@@ -1,0 +1,109 @@
+﻿@model Gender.MVCWebApp.FE.DuyVK.Models.LoginRequestVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gender.MVCWebApp.FE.DuyVK</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <style>
+        /* full-screen gradient background */
+        body {
+            background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+            min-height: 100vh;
+        }
+        /* center the card vertically & horizontally */
+        .login-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        /* card styling */
+        .login-card {
+            max-width: 380px;
+            width: 100%;
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+            .login-card .card-header {
+                background: #fff;
+                text-align: center;
+                padding: 2rem 1.5rem;
+            }
+
+                .login-card .card-header h2 {
+                    margin-bottom: .5rem;
+                    font-weight: 700;
+                }
+
+            .login-card .card-body {
+                padding: 2rem 1.5rem;
+                background: #f8f9fa;
+            }
+
+            .login-card .form-control {
+                border-radius: .5rem;
+                padding: .75rem 1rem;
+            }
+
+            .login-card .btn-primary {
+                width: 100%;
+                border-radius: 50px;
+                padding: .75rem;
+                font-weight: 600;
+            }
+
+            .login-card .card-footer {
+                background: #fff;
+                text-align: center;
+                padding: 1rem;
+            }
+    </style>
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="card login-card">
+            <div class="card-header">
+                <h2>Welcome Back</h2>
+                <p class="text-muted mb-0">Please sign in to your account</p>
+            </div>
+            <div class="card-body">
+                <form asp-action="Login" novalidate>
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserName" class="form-label"></label>
+                        <input asp-for="UserName" class="form-control form-control-lg" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" type="password" class="form-control form-control-lg" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg">Log In</button>
+                </form>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">&copy; 2025 Duy</small>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
