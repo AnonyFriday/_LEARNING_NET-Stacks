@@ -1,7 +1,0 @@
-E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK_2\Gender.GraphQLClient.BlazorWAS.DuyVK\obj\Debug\net8.0\Gender.GraphQL.Client.BlazorWAS.DuyVK.csproj.AssemblyReference.cache
-E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK_2\Gender.GraphQLClient.BlazorWAS.DuyVK\obj\Debug\net8.0\rpswa.dswa.cache.json
-E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK_2\Gender.GraphQLClient.BlazorWAS.DuyVK\obj\Debug\net8.0\Gender.GraphQL.Client.BlazorWAS.DuyVK.GeneratedMSBuildEditorConfig.editorconfig
-E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK_2\Gender.GraphQLClient.BlazorWAS.DuyVK\obj\Debug\net8.0\Gender.GraphQL.Client.BlazorWAS.DuyVK.AssemblyInfoInputs.cache
-E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK_2\Gender.GraphQLClient.BlazorWAS.DuyVK\obj\Debug\net8.0\Gender.GraphQL.Client.BlazorWAS.DuyVK.AssemblyInfo.cs
-E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK_2\Gender.GraphQLClient.BlazorWAS.DuyVK\obj\Debug\net8.0\Gender.GraphQL.Client.BlazorWAS.DuyVK.csproj.CoreCompileInputs.cache
-E:\Learning\inclass_fpt\2025_Semester-3\PRN232\Projects\SU25_PRN232_SE1725_ASM1_SE182407_DuyVK_2\Gender.GraphQLClient.BlazorWAS.DuyVK\obj\Debug\net8.0\Gender.GraphQL.Client.BlazorWAS.DuyVK.MvcApplicationPartsAssemblyInfo.cache

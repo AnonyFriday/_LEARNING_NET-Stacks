@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Gender.GrpcService.DuyVK.props" />
-</Project>
